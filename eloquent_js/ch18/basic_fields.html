@@ -1,0 +1,15 @@
+<!doctype html>
+
+<html>
+    <body>
+    <input type="text">
+    </body> 
+    <script>
+        document.querySelector("input").focus();
+        console.log(document.activeElement.tagName);
+        // INPUT
+        document.querySelector("input").blur();
+        console.log(document.activeElement.tagName);
+        // BODY
+    </script>
+</html>
