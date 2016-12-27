@@ -15,11 +15,10 @@ function process_response(response) {
     });
 
     /* A cleaner way to do this */
-    /* response.on('data', console.log); 
+    /* response.on('data', console.log); */ 
 
     response.on('data', function (data) {
         console.log(data);
     });
 
-    //response.on('end', function (end) {
 }
